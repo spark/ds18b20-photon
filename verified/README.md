@@ -20,7 +20,7 @@ This verification code is performed under the unit-test system and also based th
 
 ## Verify process
   1. Setup the hardware system based on the `ds18b20.fzz` diagarm file. You may need to install Fritzing from [this website](http://fritzing.org/download/).You can also wire the hardware like the picture below.
- ![Image of wireDiagram](https://github.com/spark/ds18b20-photon/blob/verification/verified/wireDiagram.png)
+ ![Image of wireDiagram](https://github.com/particle-iot/ds18b20-photon/blob/verification/verified/wireDiagram.png)
   2. Create a project from WEB IED or Particle DEV and then. Add the `libraryTest_DS18B20.ino` file into that project.
   3. Add the `UNIT-TEST` and `DS18B20` library before compile that firmware.
   4. Once compiled successfully.Flash the firmware to your particle device.
